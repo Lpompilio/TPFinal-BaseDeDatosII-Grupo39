@@ -13,4 +13,4 @@ GO
 
 
 
-SELECT * FROM V_Productos_Stock_Bajo; -- Para ver esta vista
+SELECT * FROM v_ProductosConStockBajo; -- Para ver esta vista
