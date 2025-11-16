@@ -8,7 +8,7 @@ USE EcommerceDB;
 GO
 
 -- =======================
--- TABLA: CATEGORIA
+-- TABLA: CATEGORIAS
 -- =======================
 CREATE TABLE Categoria (
     IdCategoria INT IDENTITY PRIMARY KEY,
@@ -17,7 +17,7 @@ CREATE TABLE Categoria (
 );
 
 -- =======================
--- TABLA: PRODUCTO
+-- TABLA: PRODUCTOS
 -- =======================
 CREATE TABLE Producto (
     IdProducto INT IDENTITY PRIMARY KEY,
@@ -29,7 +29,7 @@ CREATE TABLE Producto (
 );
 
 -- =======================
--- TABLA: CLIENTE
+-- TABLA: CLIENTES
 -- =======================
 CREATE TABLE Cliente (
     IdCliente INT IDENTITY PRIMARY KEY,
@@ -42,7 +42,7 @@ CREATE TABLE Cliente (
 );
 
 -- =======================
--- TABLA: METODO DE PAGO
+-- TABLA: METODOS DE PAGO
 -- =======================
 CREATE TABLE MetodoPago (
     IdMetodoPago INT IDENTITY PRIMARY KEY,
@@ -51,7 +51,7 @@ CREATE TABLE MetodoPago (
 );
 
 -- =======================
--- TABLA: VENTA
+-- TABLA: VENTAS
 -- =======================
 CREATE TABLE Venta (
     IdVenta INT IDENTITY PRIMARY KEY,
@@ -62,7 +62,7 @@ CREATE TABLE Venta (
 );
 
 -- =======================
--- TABLA: DETALLE VENTA
+-- TABLA: DETALLE VENTAS
 -- =======================
 CREATE TABLE DetalleVenta (
     IdDetalleVenta INT IDENTITY PRIMARY KEY,
@@ -73,7 +73,7 @@ CREATE TABLE DetalleVenta (
 );
 
 -- =======================
--- TABLA: PROVEEDOR
+-- TABLA: PROVEEDORES
 -- =======================
 CREATE TABLE Proveedor (
     IdProveedor INT IDENTITY PRIMARY KEY,
@@ -85,7 +85,7 @@ CREATE TABLE Proveedor (
 );
 
 -- =======================
--- TABLA: COMPRA
+-- TABLA: COMPRAS
 -- =======================
 CREATE TABLE Compra (
     IdCompra INT IDENTITY PRIMARY KEY,
@@ -95,7 +95,7 @@ CREATE TABLE Compra (
 );
 
 -- =======================
--- TABLA: DETALLE COMPRA
+-- TABLA: DETALLE COMPRAS
 -- =======================
 CREATE TABLE DetalleCompra (
     IdDetalleCompra INT IDENTITY PRIMARY KEY,
