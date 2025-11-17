@@ -8,7 +8,6 @@ ON DetalleVenta
 AFTER DELETE  
 AS
 BEGIN
-
     UPDATE p
     SET p.StockActual = p.StockActual + d.Cantidad -- Se SUMA (reintegra) el stock
     FROM Producto p
@@ -16,3 +15,4 @@ BEGIN
 END;
 
 GO
+
