@@ -18,7 +18,3 @@ GO
 
 
 
--- Para Mostrar la Vista
-
-SELECT * FROM V_Resumen_Ventas_Cliente
-ORDER BY TotalGastado DESC; -- Para ver quién gastó más

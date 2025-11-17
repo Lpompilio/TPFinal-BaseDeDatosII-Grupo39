@@ -13,4 +13,3 @@ GO
 
 
 
-SELECT * FROM v_ProductosConStockBajo; -- Para ver esta vista
