@@ -16,4 +16,4 @@ SELECT * FROM vw_ComprasPorProveedor;
 
 SELECT *
 FROM vw_ComprasPorProveedor
-WHERE RazonSocial = 'Proveedor XYZ';
+WHERE RazonSocial = 'TechWorld SA';
